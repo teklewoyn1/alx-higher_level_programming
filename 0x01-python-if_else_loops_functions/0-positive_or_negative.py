@@ -1,12 +1,5 @@
 #!/usr/bin/python3
-"""
-Created on Tue May 31 22:55:49 2022
-
-@author: Vineyard22
-"""
 import random
-
-
 number = random.randint(-10, 10)
 if(number > 0):
     print(number, "is positive")
@@ -14,4 +7,3 @@ elif(number == 0):
     print(number, "is zero")
 else:
     print(number, "is negative")
-    
