@@ -7,4 +7,4 @@ Created on Wed Jun  1 00:18:36 2022
 a = range(97, 123)
 
 for x in a:
-    print(chr(x), end=" ")
+    print(chr(x), end="")
