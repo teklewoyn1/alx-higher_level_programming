@@ -9,4 +9,4 @@ b=""
 for x in a:
     b += chr(x)
     
-print(b)
+print(b.format())
