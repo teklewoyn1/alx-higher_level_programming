@@ -5,8 +5,7 @@ Created on Wed Jun  1 00:18:36 2022
 @author: Teklewoyn
 """
 a = range(97, 123)
-b=""
+b = ""
 for x in a:
     b += chr(x)
-    
-print(b.format())
+print(b.format(), end="")
