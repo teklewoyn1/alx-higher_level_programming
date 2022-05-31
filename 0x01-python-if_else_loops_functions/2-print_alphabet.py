@@ -8,4 +8,4 @@ a = range(97, 123)
 b = ""
 for x in a:
     b += chr(x)
-print(b.format())
+print(b.format(), end="")
