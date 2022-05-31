@@ -12,4 +12,4 @@ for x in a:
     elif x == 113:
         continue
     b += chr(x)
-print(b.format(), end="")
+print(b.format(), end='')
