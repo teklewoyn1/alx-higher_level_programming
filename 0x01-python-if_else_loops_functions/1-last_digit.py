@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-print(number)
 converted = str(number)
 intermediate = converted[-1]
-lastDigit = int(intermediate)
+if number >= 0:
+    lastDigit = int(intermediate)
+else:
+    lastDigit = int(intermediate) * -1
 print("Last digit of", number, "is", lastDigit, end=" ")
 if lastDigit > 5:
     print("and is greater than 5")
