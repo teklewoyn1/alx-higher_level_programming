@@ -1,3 +1,3 @@
 # alx-higher_level_programming
 
-Conditional statement, loop, and function in python
+Conditional statement (if else), loops, and function in python
