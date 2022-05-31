@@ -2,7 +2,8 @@
 import random
 number = random.randint(-10000, 10000)
 converted = str(number)
-intermediate = converted[-1]if number >= 0:
+intermediate = converted[-1]
+if number >= 0:
     lastDigit = int(intermediate)
 else:
     lastDigit = int(intermediate) * -1
