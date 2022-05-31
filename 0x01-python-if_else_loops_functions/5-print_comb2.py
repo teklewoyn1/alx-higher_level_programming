@@ -8,4 +8,4 @@ num = range(100)
 for x in num:
     print('%02d' % (x), end=''.format())
     if x != 99:
-        print(end=', ') 
+        print(end=', ')
