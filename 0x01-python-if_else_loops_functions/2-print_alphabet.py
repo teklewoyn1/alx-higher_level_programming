@@ -1,10 +1,12 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/python3
 """
 Created on Wed Jun  1 00:18:36 2022
 
-@author: Vineyard22
+@author: Teklewoyn
 """
 a = range(97, 123)
-
+b=""
 for x in a:
-    print(chr(x), end=" ")
+    b += chr(x)
+    
+print(b.format())
