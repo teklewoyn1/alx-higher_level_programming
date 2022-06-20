@@ -2,6 +2,10 @@
 
 
 def magic_calculation(a, b):
+    """
+    A function that prints an integer with
+    "{:d}".format()
+    """
     result = 0
     for i in range(1, 3):
         try:
