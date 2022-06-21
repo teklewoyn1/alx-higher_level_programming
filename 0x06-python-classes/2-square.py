@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+  """Initializes the data."""
+    
+    
 class Square:
     """Represents a square.
     Private instance attribute: size.
