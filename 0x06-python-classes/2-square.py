@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-  """Initializes the data."""
+"""Initializes the data."""
     
     
 class Square:
